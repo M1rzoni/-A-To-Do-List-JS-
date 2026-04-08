@@ -2,6 +2,8 @@ let addToDoButton = document.getElementById('addToDo');
 let toDoContainer=document.getElementById('toDoContainer'); //pristup elementima iz HTML
 let inputField=document.getElementById('inputField');
 
+let variable  = "mirza";
+
 addToDoButton.addEventListener('click', function(){
    
     var paragraph=document.createElement('p');
